@@ -1,0 +1,145 @@
+/* GLOBAL ANIMATIONS */
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Glass Navbar */
+.elegant-nav {
+  background: rgba(15, 23, 42, 0.75) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Better Buttons */
+.btn-primary {
+  background: linear-gradient(45deg, #2563eb, #1d4ed8);
+  border: none;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.btn-outline-secondary:hover {
+  background: #f8fafc;
+  transform: translateY(-3px);
+}
+
+/* Profile Photo Animation */
+.profile-photo {
+  animation: zoomIn 1s ease;
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Skill Cards Hover */
+.skill-card-hover {
+  transition: 0.3s ease;
+}
+.skill-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Cards */
+.upgraded-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.35s ease;
+}
+.upgraded-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Title Style */
+h2 {
+  position: relative;
+  padding-left: 14px;
+}
+h2::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(45deg, #2563eb, #3b82f6);
+  left: 0;
+  top: 0;
+  border-radius: 2px;
+}
+
+/* Smooth Page Spacing */
+.page-container {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+/* Fade-in for Grid Items */
+.col-md-4,
+.col-md-6 {
+  animation: fadeIn 0.8s ease forwards;
+  opacity: 0;
+}
+
+/* Smooth link hover */
+a {
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* Page wrapper fix */
+.page-wrapper {
+  padding-top: 110px;
+}
+
+/* About Page Enhancements */
+
+.info-list li {
+  margin-bottom: 6px;
+}
+
+.timeline {
+  padding-left: 18px;
+  border-left: 3px solid #2563eb;
+  margin-left: 10px;
+}
+
+.timeline li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.timeline li span {
+  font-weight: 600;
+  color: #2563eb;
+  margin-right: 6px;
+}
+
+/* Picture hover effect */
+.about-img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+/* About Card */
+.about-wrapper {
+  border-radius: 16px;
+}
