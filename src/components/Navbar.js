@@ -20,7 +20,7 @@ export default function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto gap-lg-4">
+          <ul className="navbar-nav ms-auto gap-lg-4 text-center">
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>

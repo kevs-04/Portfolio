@@ -32,7 +32,8 @@ export default function Projects() {
                 <p className="text-muted">{p.desc}</p>
 
                 <button
-                  className="btn btn-sm btn-primary"
+                  className="btn btn-sm btn-primary rounded-pill"
+                  style={{ padding: "10px 15px" }}
                   onClick={() => window.open(p.link, "_blank")}
                 >
                   View Project

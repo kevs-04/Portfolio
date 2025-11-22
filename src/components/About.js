@@ -12,7 +12,7 @@ export default function About() {
               <img
                 src={Profile}
                 alt="Profile"
-                className="rounded shadow-lg"
+                className="rounded "
                 style={{
                   width: "220px",
                   height: "220px",
@@ -24,7 +24,9 @@ export default function About() {
 
             {/* RIGHT SIDE CONTENT */}
             <div className="col-md-8">
-              <h2 className="fw-bold mb-3">About Me</h2>
+              <h2 style={{ color: "#0f172abf" }} className="fw-bold mb-3">
+                About Me
+              </h2>
               <p className="text-muted mb-4">
                 I’m an aspiring Front-End Developer passionate about creating
                 clean, modern, and user-friendly web interfaces. I enjoy
@@ -33,22 +35,34 @@ export default function About() {
               </p>
 
               {/* Personal Information */}
-              <h4 className="fw-bold mt-4">Personal Information</h4>
+              <h4 style={{ color: "#0f172abf" }} className="fw-bold mt-4">
+                Personal Information
+              </h4>
               <ul className="list-unstyled info-list">
                 <li>
-                  <strong>Name:</strong> Kevin De Vera
+                  <strong style={{ color: "#405e84ff" }}>Name:</strong> Kevin De
+                  Vera
                 </li>
                 <li>
-                  <strong>Age:</strong> 21
+                  <strong style={{ color: "#405e84ff" }}>Age:</strong> 21
                 </li>
                 <li>
-                  <strong>Location:</strong> Philippines
+                  <strong style={{ color: "#405e84ff" }}>Location:</strong>{" "}
+                  Philippines
                 </li>
                 <li>
-                  <strong>Course:</strong> BS Computer Science
+                  <strong style={{ color: "#405e84ff" }}>Course:</strong> BS
+                  Computer Science
                 </li>
                 <li>
-                  <strong>Email:</strong> kevindevera249@gmail.com
+                  <strong style={{ color: "#405e84ff" }}>Email:</strong>{" "}
+                  <a
+                    href="mailto:kevindevera249@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    kevindevera249@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
@@ -58,28 +72,42 @@ export default function About() {
 
           {/* Journey Section */}
           <div>
-            <h4 className="fw-bold">My Journey</h4>
+            <h4 style={{ color: "#0f172abf" }} className="fw-bold">
+              My Journey
+            </h4>
             <ul className="timeline">
               <li>
-                <span>2022</span> — Started learning basic HTML & CSS
+                <span style={{ marginRight: ".8rem", fontWeight: 700 }}>
+                  2022
+                </span>{" "}
+                Started learning basic HTML & CSS
               </li>
               <li>
-                <span>2023</span> — Learned JavaScript and built mini projects
+                <span style={{ marginRight: ".8rem", fontWeight: 700 }}>
+                  2023
+                </span>{" "}
+                Learned JavaScript and built mini projects
               </li>
               <li>
-                <span>2024</span> — Improved UI/UX and started building
-                portfolio
+                <span style={{ marginRight: ".8rem", fontWeight: 700 }}>
+                  2024
+                </span>{" "}
+                Improved UI/UX and started building portfolio
               </li>
               <li>
-                <span>2025</span> — Learned React & Bootstrap / building bigger
-                apps
+                <span style={{ marginRight: ".8rem", fontWeight: 700 }}>
+                  2025
+                </span>{" "}
+                Learned React & Bootstrap / building bigger apps
               </li>
             </ul>
           </div>
 
           {/* Interests Section */}
           <div className="mt-4">
-            <h4 className="fw-bold">Interests</h4>
+            <h4 style={{ color: "#0f172abf" }} className="fw-bold">
+              Interests
+            </h4>
             <p className="text-muted">
               UI/UX · Front-End Development · Graphic Design · Responsive
               Layouts · Gaming

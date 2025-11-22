@@ -4,17 +4,17 @@ import Profile from "../asset/Profile.jpg"; // ✅ FIXED IMPORT
 export default function Home() {
   return (
     <main className="py-5 page-container text-center">
-      <div className="container pt-4">
+      <div className="container ">
         <img
           src={Profile} // ✅ FIXED SRC
           alt="profile"
-          className="rounded-circle shadow mb-3"
-          width="160"
-          height="160"
+          className="rounded-circle  mb-3"
+          width="200"
+          height="200"
         />
 
-        <h1 className="display-4 fw-bold">
-          Hello, I'm <span className="text-primary">Kevin</span>
+        <h1 style={{ color: "#0f172abf" }} className="display-4 fw-bold">
+          Hello, I'm <span style={{ color: "#6D94C5" }}>Kevin</span>
         </h1>
 
         <p className="lead text-secondary">
@@ -28,11 +28,15 @@ export default function Home() {
         </p>
 
         <div className="mt-4">
-          <a href="/projects" className="btn btn-primary me-2">
-            See my projects
+          <a
+            href="/projects"
+            style={{ padding: "7px 10px" }}
+            className="btn btn-primary me-2 px"
+          >
+            My Projects
           </a>
           <a href="/about" className="btn btn-outline-secondary">
-            About me
+            About Me
           </a>
         </div>
 

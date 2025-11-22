@@ -1,3 +1,10 @@
+/****************
+*** COLOURS *****
+*****************/
+.custom-red {
+  color: #f46c6c;
+}
+
 /* GLOBAL ANIMATIONS */
 .fade-in {
   animation: fadeIn 0.8s ease forwards;
@@ -11,24 +18,25 @@
 
 /* Glass Navbar */
 .elegant-nav {
-  background: rgba(15, 23, 42, 0.75) !important;
+  background: #0f172abf !important;
   backdrop-filter: blur(10px);
 }
 
 /* Better Buttons */
 .btn-primary {
-  background: linear-gradient(45deg, #2563eb, #1d4ed8);
+  background: linear-gradient(45deg, #0f172abf, #0f172abf);
   border: none;
   transition: 0.3s;
 }
 .btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 6px 20px rgba(101, 102, 106, 0.4) !important;
 }
 
 .btn-outline-secondary:hover {
-  background: #f8fafc;
-  transform: translateY(-3px);
+  background: #0f172abf !important;
+  box-shadow: 0 6px 20px rgba(101, 102, 106, 0.4) !important;
+  transition: all 0.3s ease-in;
+  /* transform: translateY(-1px); */
 }
 
 /* Profile Photo Animation */
@@ -78,7 +86,7 @@ h2::before {
   position: absolute;
   width: 6px;
   height: 100%;
-  background: linear-gradient(45deg, #2563eb, #3b82f6);
+  background: linear-gradient(45deg, #0f172abf, #0f172abf);
   left: 0;
   top: 0;
   border-radius: 2px;
@@ -118,19 +126,22 @@ a:hover {
 
 .timeline {
   padding-left: 18px;
-  border-left: 3px solid #2563eb;
-  margin-left: 10px;
+  /* dark blue */
+  border-left: 3px solid #1e325ebf;
+  /* border-left: 3px solid #f46c6c; */
+  /* margin-left: 10px; */
 }
 
 .timeline li {
   margin-bottom: 10px;
   position: relative;
+  list-style: none;
 }
 
 .timeline li span {
   font-weight: 600;
-  color: #2563eb;
-  margin-right: 6px;
+  color: #6d94c5;
+  /* margin-right: 6px; */
 }
 
 /* Picture hover effect */
