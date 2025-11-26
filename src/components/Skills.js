@@ -16,7 +16,9 @@ export default function Skills() {
   return (
     <div className="py-5 page-container">
       <div className="container">
-        <h2 className="fw-bold mb-4 text-center">Skills</h2>
+        <h2 style={{ color: "#0f172abf" }} className="fw-bold mb-4 text-center">
+          Skills
+        </h2>
         <div className="row g-3">
           {skillsList.map((skill, index) => (
             <div key={index} className="col-md-4">

@@ -19,9 +19,11 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="py-5 page-container bg-light">
+    <div className="py-5 page-container fade-in">
       <div className="container">
-        <h2 className="fw-bold mb-4">Projects</h2>
+        <h2 style={{ color: "#0f172abf" }} className="fw-bold mb-4">
+          Projects
+        </h2>
         <div className="row g-4">
           {projects.map((p, i) => (
             <div key={i} className="col-md-6">

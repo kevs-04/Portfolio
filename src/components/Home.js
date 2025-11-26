@@ -1,12 +1,12 @@
 import React from "react";
-import Profile from "../asset/Profile.jpg"; // ✅ FIXED IMPORT
+import Profile from "../asset/Profile.jpg"; //
 
 export default function Home() {
   return (
     <main className="py-5 page-container text-center">
       <div className="container ">
         <img
-          src={Profile} // ✅ FIXED SRC
+          src={Profile}
           alt="profile"
           className="rounded-circle  mb-3"
           width="200"

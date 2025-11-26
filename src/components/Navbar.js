@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // ensures hamburger works
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export default function Navbar() {
   return (
